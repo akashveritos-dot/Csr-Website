@@ -1,0 +1,1357 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSR Universe - Corporate Social Responsibility</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="top-bar">
+        <nav class="navbar">
+            <div class="nav-container">
+                <div class="logo">
+                    <img src="https://media.licdn.com/dms/image/v2/D4D16AQHhQwWpDdKWMA/profile-displaybackgroundimage-shrink_200_800/profile-displaybackgroundimage-shrink_200_800/0/1697126809347?e=2147483647&v=beta&t=lsD8RDXPWWeoG0GX6kEfs4KkUttCoqLVXpdsqhsJrZo" alt="CSR Universe Logo" class="nav-logo">
+                </div>
+                <ul class="nav-menu">
+                    <li class="nav-item dropdown">
+                        <a href="#" class="nav-link">
+                            <svg class="nav-icon" width="10" height="10" viewBox="0 0 24 24" fill="none">
+                                <path d="M3 12L5 10M5 10L12 3L19 10M5 10V20C5 20.5523 5.44772 21 6 21H9M19 10L21 12M19 10V20C19 20.5523 18.5523 21 18 21H15M9 21C9.55228 21 10 20.5523 10 20V16C10 15.4477 10.4477 15 11 15H13C13.5523 15 14 15.4477 14 16V20C14 20.5523 14.4477 21 15 21M9 21H15" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                            Latest News
+                            <svg class="dropdown-icon" width="12" height="12" viewBox="0 0 12 12" fill="none">
+                                <path d="M3 4.5L6 7.5L9 4.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                        </a>
+                        <div class="dropdown-content">
+                            <div class="dropdown-section">
+                                <h3>
+                                    Latest News
+                                </h3>
+                                <p>Latest news and updates on different dimensions of Corporate Social Responsibility (CSR) in India and abroad.</p>
+                                <a href="#" class="know-more">Know more</a>
+                            </div>
+                            <div class="dropdown-links">
+                                <a href="#">
+                                    <svg class="link-icon" width="12" height="12" viewBox="0 0 24 24" fill="none">
+                                        <path d="M3 12L5 10M5 10L12 3L19 10M5 10V20C5 20.5523 5.44772 21 6 21H9M19 10L21 12M19 10V20C19 20.5523 18.5523 21 18 21H15" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                    </svg>
+                                    News
+                                </a>
+                                <a href="#">
+                                    <svg class="link-icon" width="12" height="12" viewBox="0 0 24 24" fill="none">
+                                        <circle cx="12" cy="12" r="10" stroke="currentColor" stroke-width="2"/>
+                                        <path d="M12 16V12" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                                        <path d="M12 8H12.01" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                                    </svg>
+                                    Investigation
+                                </a>
+                                <a href="#">
+                                    <svg class="link-icon" width="12" height="12" viewBox="0 0 24 24" fill="none">
+                                        <path d="M12 2L15.09 8.26L22 9.27L17 14.14L18.18 21.02L12 17.77L5.82 21.02L7 14.14L2 9.27L8.91 8.26L12 2Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                    </svg>
+                                    Success Story
+                                </a>
+                                <a href="#">
+                                    <svg class="link-icon" width="12" height="12" viewBox="0 0 24 24" fill="none">
+                                        <path d="M20 21V19C20 17.9391 19.5786 16.9217 18.8284 16.1716C18.0783 15.4214 17.0609 15 16 15H8C6.93913 15 5.92172 15.4214 5.17157 16.1716C4.42143 16.9217 4 17.9391 4 19V21" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                        <circle cx="12" cy="7" r="4" stroke="currentColor" stroke-width="2"/>
+                                    </svg>
+                                    Appointments
+                                </a>
+                                <a href="#">
+                                    <svg class="link-icon" width="12" height="12" viewBox="0 0 24 24" fill="none">
+                                        <path d="M19 3H5C3.89543 3 3 3.89543 3 5V19C3 20.1046 3.89543 21 5 21H19C20.1046 21 21 20.1046 21 19V5C21 3.89543 20.1046 3 19 3Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                        <path d="M3 9H21" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                        <path d="M9 21V9" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                    </svg>
+                                    Corporate Governance
+                                </a>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a href="#" class="nav-link">
+                            <svg class="nav-icon" width="10" height="10" viewBox="0 0 24 24" fill="none">
+                                <rect x="3" y="4" width="18" height="18" rx="2" ry="2" stroke="currentColor" stroke-width="2"/>
+                                <line x1="16" y1="2" x2="16" y2="6" stroke="currentColor" stroke-width="2"/>
+                                <line x1="8" y1="2" x2="8" y2="6" stroke="currentColor" stroke-width="2"/>
+                                <line x1="3" y1="10" x2="21" y2="10" stroke="currentColor" stroke-width="2"/>
+                            </svg>
+                            Events - SICA 2025
+                            <svg class="dropdown-icon" width="12" height="12" viewBox="0 0 12 12" fill="none">
+                                <path d="M3 4.5L6 7.5L9 4.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                        </a>
+                        <div class="dropdown-content">
+                            <div class="dropdown-section">
+                                <h3>
+                                    Events - SICA 2025
+                                </h3>
+                                <a href="#" class="know-more">Know more</a>
+                            </div>
+                            <div class="dropdown-links">
+                                <a href="#">
+                                    <svg class="link-icon" width="12" height="12" viewBox="0 0 24 24" fill="none">
+                                        <path d="M17 21V19C17 17.9391 16.5786 16.9217 15.8284 16.1716C15.0783 15.4214 14.0609 15 13 15H5C3.93913 15 2.92172 15.4214 2.17157 16.1716C1.42143 16.9217 1 17.9391 1 19V21" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                        <circle cx="9" cy="7" r="4" stroke="currentColor" stroke-width="2"/>
+                                    </svg>
+                                    Social Impact Conference & Awards 2025
+                                </a>
+                                <a href="#">
+                                    <svg class="link-icon" width="12" height="12" viewBox="0 0 24 24" fill="none">
+                                        <rect x="3" y="4" width="18" height="18" rx="2" ry="2" stroke="currentColor" stroke-width="2"/>
+                                        <line x1="16" y1="2" x2="16" y2="6" stroke="currentColor" stroke-width="2"/>
+                                        <line x1="8" y1="2" x2="8" y2="6" stroke="currentColor" stroke-width="2"/>
+                                        <line x1="3" y1="10" x2="21" y2="10" stroke="currentColor" stroke-width="2"/>
+                                    </svg>
+                                    Social Impact Conference and Awards 2024
+                                </a>
+                                <a href="#">
+                                    <svg class="link-icon" width="12" height="12" viewBox="0 0 24 24" fill="none">
+                                        <path d="M12 2L15.09 8.26L22 9.27L17 14.14L18.18 21.02L12 17.77L5.82 21.02L7 14.14L2 9.27L8.91 8.26L12 2Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                    </svg>
+                                    Climate Action & Sustainability Conference & Awards 2025
+                                </a>
+                                <a href="#">
+                                    <svg class="link-icon" width="12" height="12" viewBox="0 0 24 24" fill="none">
+                                        <path d="M1 12L4 9L11 16L23 4" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                        <path d="M21 12V19C21 20.1046 20.1046 21 19 21H5C3.89543 21 3 20.1046 3 19V12" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                    </svg>
+                                    Social Impact Conference and Awards 2023
+                                </a>
+                                <a href="#">
+                                    <svg class="link-icon" width="12" height="12" viewBox="0 0 24 24" fill="none">
+                                        <circle cx="12" cy="12" r="10" stroke="currentColor" stroke-width="2"/>
+                                        <path d="M12 16V12" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                                        <path d="M12 8H12.01" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                                    </svg>
+                                    Social Impact Conference and Awards 2022
+                                </a>
+                                <a href="#">
+                                    <svg class="link-icon" width="12" height="12" viewBox="0 0 24 24" fill="none">
+                                        <path d="M12 2.69L5.39 8.26C5.15 8.47 5 8.78 5 9.11V20C5 20.55 5.45 21 6 21H9C9.55 21 10 20.55 10 20V14C10 13.45 10.45 13 11 13H13C13.55 13 14 13.45 14 14V20C14 20.55 14.45 21 15 21H18C18.55 21 19 20.55 19 20V9.11C19 8.78 18.85 8.47 18.61 8.26L12 2.69Z" stroke="currentColor" stroke-width="2"/>
+                                    </svg>
+                                    COVID Response Social Impact Awards 2021
+                                </a>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a href="#" class="nav-link">
+                            <svg class="nav-icon" width="10" height="10" viewBox="0 0 24 24" fill="none">
+                                <circle cx="12" cy="12" r="10" stroke="currentColor" stroke-width="2"/>
+                                <path d="M12 16V12" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                                <path d="M12 8H12.01" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                            </svg>
+                            CSR Insight
+                            <svg class="dropdown-icon" width="12" height="12" viewBox="0 0 12 12" fill="none">
+                                <path d="M3 4.5L6 7.5L9 4.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                        </a>
+                        <div class="dropdown-content">
+                            <div class="dropdown-section">
+                                <h3>
+                                    CSR Insight
+                                </h3>
+                                <p>Find in-depth insights on CSR knowledge, latest CSR policies, expert opinion and special reports</p>
+                                <a href="#" class="know-more">Know more</a>
+                            </div>
+                            <div class="dropdown-links">
+                                <a href="#">
+                                    <svg class="link-icon" width="12" height="12" viewBox="0 0 24 24" fill="none">
+                                        <path d="M19 3H5C3.89543 3 3 3.89543 3 5V19C3 20.1046 3.89543 21 5 21H19C20.1046 21 21 20.1046 21 19V5C21 3.89543 20.1046 3 19 3Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                        <path d="M3 9H21" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                        <path d="M9 21V9" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                    </svg>
+                                    Policy
+                                </a>
+                                <a href="#">
+                                    <svg class="link-icon" width="12" height="12" viewBox="0 0 24 24" fill="none">
+                                        <path d="M12 2L15.09 8.26L22 9.27L17 14.14L18.18 21.02L12 17.77L5.82 21.02L7 14.14L2 9.27L8.91 8.26L12 2Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                    </svg>
+                                    Knowledge
+                                </a>
+                                <a href="#">
+                                    <svg class="link-icon" width="12" height="12" viewBox="0 0 24 24" fill="none">
+                                        <path d="M1 12L4 9L11 16L23 4" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                        <path d="M21 12V19C21 20.1046 20.1046 21 19 21H5C3.89543 21 3 20.1046 3 19V12" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                    </svg>
+                                    Featured
+                                </a>
+                                <a href="#">
+                                    <svg class="link-icon" width="12" height="12" viewBox="0 0 24 24" fill="none">
+                                        <circle cx="12" cy="12" r="10" stroke="currentColor" stroke-width="2"/>
+                                        <path d="M12 16V12" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                                        <path d="M12 8H12.01" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                                    </svg>
+                                    Opinion
+                                </a>
+                                <a href="#">
+                                    <svg class="link-icon" width="12" height="12" viewBox="0 0 24 24" fill="none">
+                                        <path d="M14 2H6C4.89543 2 4 2.89543 4 4V20C4 21.1046 4.89543 22 6 22H18C19.1046 22 20 21.1046 20 20V8L14 2Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                        <path d="M14 2V8H20" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                        <path d="M16 13H8" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                        <path d="M16 17H8" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                    </svg>
+                                    Special Reports
+                                </a>
+                                <a href="#">
+                                    <svg class="link-icon" width="12" height="12" viewBox="0 0 24 24" fill="none">
+                                        <path d="M3 12L5 10M5 10L12 3L19 10M5 10V20C5 20.5523 5.44772 21 6 21H9M19 10L21 12M19 10V20C19 20.5523 18.5523 21 18 21H15" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                    </svg>
+                                    Case Studies
+                                </a>
+                                <a href="#">
+                                    <svg class="link-icon" width="12" height="12" viewBox="0 0 24 24" fill="none">
+                                        <rect x="3" y="4" width="18" height="18" rx="2" ry="2" stroke="currentColor" stroke-width="2"/>
+                                        <line x1="16" y1="2" x2="16" y2="6" stroke="currentColor" stroke-width="2"/>
+                                        <line x1="8" y1="2" x2="8" y2="6" stroke="currentColor" stroke-width="2"/>
+                                        <line x1="3" y1="10" x2="21" y2="10" stroke="currentColor" stroke-width="2"/>
+                                    </svg>
+                                    Magazine
+                                </a>
+                                <a href="#">
+                                    <svg class="link-icon" width="12" height="12" viewBox="0 0 24 24" fill="none">
+                                        <path d="M20 21V19C20 17.9391 19.5786 16.9217 18.8284 16.1716C18.0783 15.4214 17.0609 15 16 15H8C6.93913 15 5.92172 15.4214 5.17157 16.1716C4.42143 16.9217 4 17.9391 4 19V21" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                        <circle cx="12" cy="7" r="4" stroke="currentColor" stroke-width="2"/>
+                                    </svg>
+                                    CSR Interview
+                                </a>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a href="#" class="nav-link">
+                            <svg class="nav-icon" width="10" height="10" viewBox="0 0 24 24" fill="none">
+                                <path d="M12 2L15.09 8.26L22 9.27L17 14.14L18.18 21.02L12 17.77L5.82 21.02L7 14.14L2 9.27L8.91 8.26L12 2Z" stroke="currentColor" stroke-width="2"/>
+                            </svg>
+                            Sustainability
+                            <svg class="dropdown-icon" width="12" height="12" viewBox="0 0 12 12" fill="none">
+                                <path d="M3 4.5L6 7.5L9 4.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                        </a>
+                        <div class="dropdown-content">
+                            <div class="dropdown-section">
+                                <h3>
+                                    Sustainability
+                                </h3>
+                                <a href="#" class="know-more">Know more</a>
+                            </div>
+                            <div class="dropdown-links">
+                                <a href="#">
+                                    <svg class="link-icon" width="12" height="12" viewBox="0 0 24 24" fill="none">
+                                        <path d="M12 2L15.09 8.26L22 9.27L17 14.14L18.18 21.02L12 17.77L5.82 21.02L7 14.14L2 9.27L8.91 8.26L12 2Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                    </svg>
+                                    Sustainable Realty
+                                </a>
+                                <a href="#">
+                                    <svg class="link-icon" width="12" height="12" viewBox="0 0 24 24" fill="none">
+                                        <circle cx="12" cy="12" r="10" stroke="currentColor" stroke-width="2"/>
+                                        <path d="M12 6V12L16 14" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                                    </svg>
+                                    Net Zero
+                                </a>
+                                <a href="#">
+                                    <svg class="link-icon" width="12" height="12" viewBox="0 0 24 24" fill="none">
+                                        <path d="M3 12L5 10M5 10L12 3L19 10M5 10V20C5 20.5523 5.44772 21 6 21H9M19 10L21 12M19 10V20C19 20.5523 18.5523 21 18 21H15" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                    </svg>
+                                    Climate Diplomacy
+                                </a>
+                                <a href="#">
+                                    <svg class="link-icon" width="12" height="12" viewBox="0 0 24 24" fill="none">
+                                        <path d="M1 12L4 9L11 16L23 4" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                        <path d="M21 12V19C21 20.1046 20.1046 21 19 21H5C3.89543 21 3 20.1046 3 19V12" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                    </svg>
+                                    Circular Economy
+                                </a>
+                                <a href="#">
+                                    <svg class="link-icon" width="12" height="12" viewBox="0 0 24 24" fill="none">
+                                        <path d="M12 2.69L5.39 8.26C5.15 8.47 5 8.78 5 9.11V20C5 20.55 5.45 21 6 21H9C9.55 21 10 20.55 10 20V14C10 13.45 10.45 13 11 13H13C13.55 13 14 13.45 14 14V20C14 20.55 14.45 21 15 21H18C18.55 21 19 20.55 19 20V9.11C19 8.78 18.85 8.47 18.61 8.26L12 2.69Z" stroke="currentColor" stroke-width="2"/>
+                                    </svg>
+                                    Waste Management
+                                </a>
+                                <a href="#">
+                                    <svg class="link-icon" width="12" height="12" viewBox="0 0 24 24" fill="none">
+                                        <path d="M12 2L15.09 8.26L22 9.27L17 14.14L18.18 21.02L12 17.77L5.82 21.02L7 14.14L2 9.27L8.91 8.26L12 2Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                    </svg>
+                                    Environment
+                                </a>
+                                <a href="#">
+                                    <svg class="link-icon" width="12" height="12" viewBox="0 0 24 24" fill="none">
+                                        <circle cx="12" cy="12" r="10" stroke="currentColor" stroke-width="2"/>
+                                        <path d="M12 16V12" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                                        <path d="M12 8H12.01" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                                    </svg>
+                                    Climate Action
+                                </a>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a href="#" class="nav-link">
+                            More
+                            <svg class="dropdown-icon" width="12" height="12" viewBox="0 0 12 12" fill="none">
+                                <path d="M3 4.5L6 7.5L9 4.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                        </a>
+                        <div class="dropdown-content">
+                            <div class="dropdown-section">
+                                <h3>
+                                    Corporates
+                                </h3>
+                                <a href="#" class="know-more">Know more</a>
+                            </div>
+                            <div class="dropdown-links">
+                                <a href="#">
+                                    <svg class="link-icon" width="12" height="12" viewBox="0 0 24 24" fill="none">
+                                        <path d="M21 11.5C21 12.3284 20.3284 13 19.5 13H13.5C12.6716 13 12 12.3284 12 11.5C12 10.6716 12.6716 10 13.5 10H19.5C20.3284 10 21 10.6716 21 11.5Z" stroke="currentColor" stroke-width="1.5"/>
+                                        <path d="M21 6C21 6.82843 20.3284 7.5 19.5 7.5H13.5C12.6716 7.5 12 6.82843 12 6C12 5.17157 12.6716 4.5 13.5 4.5H19.5C20.3284 4.5 21 5.17157 21 6Z" stroke="currentColor" stroke-width="1.5"/>
+                                        <path d="M21 17C21 17.8284 20.3284 18.5 19.5 18.5H13.5C12.6716 18.5 12 17.8284 12 17C12 16.1716 12.6716 15.5 13.5 15.5H19.5C20.3284 15.5 21 16.1716 21 17Z" stroke="currentColor" stroke-width="1.5"/>
+                                        <path d="M7 3V21" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                                    </svg>
+                                    YourVoice
+                                </a>
+                                <a href="#">
+                                    <svg class="link-icon" width="12" height="12" viewBox="0 0 24 24" fill="none">
+                                        <path d="M3 21L12 12L21 21" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                        <path d="M3 9L12 18L21 9" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                        <path d="M12 12V3" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                    </svg>
+                                    Organisations
+                                </a>
+                                <a href="#">
+                                    <svg class="link-icon" width="12" height="12" viewBox="0 0 24 24" fill="none">
+                                        <path d="M14 2H6C4.89543 2 4 2.89543 4 4V20C4 21.1046 4.89543 22 6 22H18C19.1046 22 20 21.1046 20 20V8L14 2Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                        <path d="M14 2V8H20" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                        <path d="M16 13H8" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                        <path d="M16 17H8" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                        <path d="M10 9H9H8" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                    </svg>
+                                    Reports
+                                </a>
+                                <a href="#">
+                                    <svg class="link-icon" width="12" height="12" viewBox="0 0 24 24" fill="none">
+                                        <path d="M20 21V19C20 17.9391 19.5786 16.9217 18.8284 16.1716C18.0783 15.4214 17.0609 15 16 15H8C6.93913 15 5.92172 15.4214 5.17157 16.1716C4.42143 16.9217 4 17.9391 4 19V21" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                        <circle cx="12" cy="7" r="4" stroke="currentColor" stroke-width="2"/>
+                                    </svg>
+                                    Jobs
+                                </a>
+                                <a href="#">
+                                    <svg class="link-icon" width="12" height="12" viewBox="0 0 24 24" fill="none">
+                                        <path d="M12 2L15.09 8.26L22 9.27L17 14.14L18.18 21.02L12 17.77L5.82 21.02L7 14.14L2 9.27L8.91 8.26L12 2Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                    </svg>
+                                    Fellowships
+                                </a>
+                                <a href="#">
+                                    <svg class="link-icon" width="12" height="12" viewBox="0 0 24 24" fill="none">
+                                        <polygon points="23 7 16 12 23 17 23 7" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                        <rect x="1" y="5" width="15" height="14" rx="2" ry="2" stroke="currentColor" stroke-width="2"/>
+                                    </svg>
+                                    Videos
+                                </a>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main class="main-content">
+        <section class="hero">
+            <div class="hero-content">
+                <h1 class="hero-title">
+                    <span class="title-word">Welcome</span>
+                    <span class="title-word">to</span>
+                    <span class="title-word">CSR</span>
+                    <span class="title-word">Universe</span>
+                </h1>
+                <div class="hero-subtitle">
+                    <span class="subtitle-word">Conscious</span>
+                    <span class="subtitle-divider">|</span>
+                    <span class="subtitle-word">Social</span>
+                    <span class="subtitle-divider">|</span>
+                    <span class="subtitle-word">Responsible</span>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Success Stories Section -->
+        <section class="content-section success-stories">
+            <div class="section-container">
+                <div class="section-header">
+                    <div class="section-icon">
+                        <svg width="40" height="40" viewBox="0 0 24 24" fill="none">
+                            <path d="M12 2L15.09 8.26L22 9.27L17 14.14L18.18 21.02L12 17.77L5.82 21.02L7 14.14L2 9.27L8.91 8.26L12 2Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </div>
+                    <h2>Success Stories</h2>
+                    <p>Transformative CSR initiatives creating lasting impact across communities</p>
+                </div>
+                
+                <!-- Impact Statistics -->
+                <div class="impact-stats">
+                    <div class="stat-card">
+                        <div class="stat-number" data-target="2500000">0</div>
+                        <div class="stat-label">Lives Impacted</div>
+                        <div class="stat-description">Across 500+ communities</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-number" data-target="850">0</div>
+                        <div class="stat-label">CSR Projects</div>
+                        <div class="stat-description">Successfully implemented</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-number" data-target="95">0</div>
+                        <div class="stat-label">Success Rate %</div>
+                        <div class="stat-description">Project completion</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-number" data-target="42">0</div>
+                        <div class="stat-label">Countries</div>
+                        <div class="stat-description">Global reach</div>
+                    </div>
+                </div>
+
+                <!-- Featured Success Stories -->
+                <div class="success-stories-grid">
+                    <div class="featured-story main-story">
+                        <div class="story-image">
+                            <img src="https://i.pinimg.com/736x/d9/68/9f/d9689fdd7953b634d9b26e7472c22da0.jpg" alt="Digital Education Revolution">
+                            <div class="story-overlay">
+                                <div class="story-category">Education</div>
+                                <div class="story-impact">High Impact</div>
+                            </div>
+                        </div>
+                        <div class="story-content">
+                            <div class="story-header">
+                                <div class="company-avatar">
+                                    <img src="https://www.shutterstock.com/image-vector/male-avatar-icon-portrait-handsome-260nw-604570796.jpg" alt="TechCorp">
+                                </div>
+                                <div class="story-meta">
+                                    <span class="story-company">TechCorp Solutions</span>
+                                    <span class="story-date">2024</span>
+                                    <span class="story-location">India</span>
+                                </div>
+                            </div>
+                            <h3>Digital Education Revolution: Transforming 1,000 Rural Schools</h3>
+                            <p>A groundbreaking initiative bringing advanced digital learning infrastructure to remote villages, featuring AI-powered educational tools, virtual classrooms, and comprehensive teacher training programs that have revolutionized education access for over 100,000 students.</p>
+                            <div class="story-metrics">
+                                <div class="metric">
+                                    <span class="metric-value">100K+</span>
+                                    <span class="metric-label">Students</span>
+                                </div>
+                                <div class="metric">
+                                    <span class="metric-value">1,000</span>
+                                    <span class="metric-label">Schools</span>
+                                </div>
+                                <div class="metric">
+                                    <span class="metric-value">85%</span>
+                                    <span class="metric-label">Improvement</span>
+                                </div>
+                            </div>
+                            <div class="story-actions">
+                                <a href="#" class="btn-primary">Read Full Story</a>
+                                <a href="#" class="btn-secondary">Watch Documentary</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="secondary-stories">
+                        <div class="story-card">
+                            <div class="story-image">
+                                <img src="https://i.pinimg.com/736x/68/85/a4/6885a4f1e8b272ccafcb93e6cdaa7aee.jpg" alt="Green Earth Initiative">
+                                <div class="story-overlay">
+                                    <div class="story-category">Environment</div>
+                                </div>
+                            </div>
+                            <div class="story-content">
+                                <div class="story-header">
+                                    <div class="company-avatar">
+                                        <img src="https://www.shutterstock.com/image-vector/male-avatar-icon-portrait-handsome-260nw-604570796.jpg" alt="EcoTech">
+                                    </div>
+                                    <div class="story-meta">
+                                        <span class="story-company">EcoTech Industries</span>
+                                        <span class="story-date">2024</span>
+                                    </div>
+                                </div>
+                                <h4>Green Earth Initiative: 5 Million Trees Planted</h4>
+                                <p>Large-scale reforestation project across 12 states creating sustainable ecosystems and employment opportunities for local communities.</p>
+                                <div class="story-metrics">
+                                    <div class="metric">
+                                        <span class="metric-value">5M</span>
+                                        <span class="metric-label">Trees</span>
+                                    </div>
+                                    <div class="metric">
+                                        <span class="metric-value">12</span>
+                                        <span class="metric-label">States</span>
+                                    </div>
+                                </div>
+                                <a href="#" class="read-more">Learn More</a>
+                            </div>
+                        </div>
+
+                        <div class="story-card">
+                            <div class="story-image">
+                                <img src="https://i.pinimg.com/736x/72/d9/63/72d9637d57c281fb93356c0f1f3c6b3f.jpg" alt="Healthcare Access">
+                                <div class="story-overlay">
+                                    <div class="story-category">Healthcare</div>
+                                </div>
+                            </div>
+                            <div class="story-content">
+                                <div class="story-header">
+                                    <div class="company-avatar">
+                                        <img src="https://www.shutterstock.com/image-vector/male-avatar-icon-portrait-handsome-260nw-604570796.jpg" alt="MediCare">
+                                    </div>
+                                    <div class="story-meta">
+                                        <span class="story-company">MediCare Foundation</span>
+                                        <span class="story-date">2024</span>
+                                    </div>
+                                </div>
+                                <h4>Mobile Healthcare Clinics: Reaching Remote Areas</h4>
+                                <p>Deploying 50 mobile medical units providing essential healthcare services to underserved communities, reaching over 200,000 patients annually.</p>
+                                <div class="story-metrics">
+                                    <div class="metric">
+                                        <span class="metric-value">50</span>
+                                        <span class="metric-label">Clinics</span>
+                                    </div>
+                                    <div class="metric">
+                                        <span class="metric-value">200K</span>
+                                        <span class="metric-label">Patients</span>
+                                    </div>
+                                </div>
+                                <a href="#" class="read-more">Learn More</a>
+                            </div>
+                        </div>
+
+                        <div class="story-card">
+                            <div class="story-image">
+                                <img src="https://i.pinimg.com/736x/a2/4e/d1/a24ed18895757ac61519c159309644a0.jpg" alt="Women Empowerment">
+                                <div class="story-overlay">
+                                    <div class="story-category">Empowerment</div>
+                                </div>
+                            </div>
+                            <div class="story-content">
+                                <div class="story-header">
+                                    <div class="company-avatar">
+                                        <img src="https://www.shutterstock.com/image-vector/male-avatar-icon-portrait-handsome-260nw-604570796.jpg" alt="WomenLead">
+                                    </div>
+                                    <div class="story-meta">
+                                        <span class="story-company">WomenLead Initiative</span>
+                                        <span class="story-date">2024</span>
+                                    </div>
+                                </div>
+                                <h4>Women Empowerment: Skills for Tomorrow</h4>
+                                <p>Comprehensive skill development program training 10,000 women in digital literacy, entrepreneurship, and leadership skills.</p>
+                                <div class="story-metrics">
+                                    <div class="metric">
+                                        <span class="metric-value">10K</span>
+                                        <span class="metric-label">Women</span>
+                                    </div>
+                                    <div class="metric">
+                                        <span class="metric-value">75%</span>
+                                        <span class="metric-label">Employment</span>
+                                    </div>
+                                </div>
+                                <a href="#" class="read-more">Learn More</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Success Stories Categories -->
+                <div class="categories-section">
+                    <div class="section-header">
+                        <h3>Explore by Impact Area</h3>
+                        <p>Discover our diverse CSR initiatives across key sectors</p>
+                    </div>
+                    <div class="category-grid">
+                        <div class="category-card featured">
+                            <div class="category-background">
+                                <div class="category-pattern"></div>
+                                <div class="category-glow"></div>
+                            </div>
+                            <div class="category-content">
+                                <div class="category-icon-wrapper">
+                                    <div class="category-icon">
+                                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none">
+                                            <path d="M12 2L15.09 8.26L22 9.27L17 14.14L18.18 21.02L12 17.77L5.82 21.02L7 14.14L2 9.27L8.91 8.26L12 2Z" stroke="currentColor" stroke-width="2"/>
+                                        </svg>
+                                    </div>
+                                    <div class="icon-ring"></div>
+                                </div>
+                                <div class="category-info">
+                                    <h4>Education</h4>
+                                    <p class="category-description">Digital Learning</p>
+                                    <div class="category-stats">
+                                        <div class="progress-item">
+                                            <div class="progress-bar-container">
+                                                <div class="progress-fill" style="--progress: 85%"></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="category-action">
+                                    <a href="#" class="explore-btn">
+                                        <span>Explore</span>
+                                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none">
+                                            <path d="M5 12h14M12 5l7 7-7 7" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                        </svg>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="category-card">
+                            <div class="category-background">
+                                <div class="category-pattern"></div>
+                                <div class="category-glow"></div>
+                            </div>
+                            <div class="category-content">
+                                <div class="category-icon-wrapper">
+                                    <div class="category-icon">
+                                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none">
+                                            <path d="M22 12h-4l-3 9L9 3l-3 9H2" stroke="currentColor" stroke-width="2"/>
+                                        </svg>
+                                    </div>
+                                    <div class="icon-ring"></div>
+                                </div>
+                                <div class="category-info">
+                                    <h4>Healthcare</h4>
+                                    <p class="category-description">Health Services</p>
+                                    <div class="category-stats">
+                                        <div class="progress-item">
+                                            <div class="progress-bar-container">
+                                                <div class="progress-fill" style="--progress: 75%"></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="category-action">
+                                    <a href="#" class="explore-btn">
+                                        <span>Explore</span>
+                                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none">
+                                            <path d="M5 12h14M12 5l7 7-7 7" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                        </svg>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="category-card">
+                            <div class="category-background">
+                                <div class="category-pattern"></div>
+                                <div class="category-glow"></div>
+                            </div>
+                            <div class="category-content">
+                                <div class="category-icon-wrapper">
+                                    <div class="category-icon">
+                                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none">
+                                            <path d="M12 2L15.09 8.26L22 9.27L17 14.14L18.18 21.02L12 17.77L5.82 21.02L7 14.14L2 9.27L8.91 8.26L12 2Z" stroke="currentColor" stroke-width="2"/>
+                                        </svg>
+                                    </div>
+                                    <div class="icon-ring"></div>
+                                </div>
+                                <div class="category-info">
+                                    <h4>Environment</h4>
+                                    <p class="category-description">Green Projects</p>
+                                    <div class="category-stats">
+                                        <div class="progress-item">
+                                            <div class="progress-bar-container">
+                                                <div class="progress-fill" style="--progress: 90%"></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="category-action">
+                                    <a href="#" class="explore-btn">
+                                        <span>Explore</span>
+                                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none">
+                                            <path d="M5 12h14M12 5l7 7-7 7" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                        </svg>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="category-card">
+                            <div class="category-background">
+                                <div class="category-pattern"></div>
+                                <div class="category-glow"></div>
+                            </div>
+                            <div class="category-content">
+                                <div class="category-icon-wrapper">
+                                    <div class="category-icon">
+                                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none">
+                                            <path d="M20 21V19C20 17.9391 19.5786 16.9217 18.8284 16.1716C18.0783 15.4214 17.0609 15 16 15H8C6.93913 15 5.92172 15.4214 5.17157 16.1716C4.42143 16.9217 4 17.9391 4 19V21" stroke="currentColor" stroke-width="2"/>
+                                            <circle cx="12" cy="7" r="4" stroke="currentColor" stroke-width="2"/>
+                                        </svg>
+                                    </div>
+                                    <div class="icon-ring"></div>
+                                </div>
+                                <div class="category-info">
+                                    <h4>Empowerment</h4>
+                                    <p class="category-description">Skill Training</p>
+                                    <div class="category-stats">
+                                        <div class="progress-item">
+                                            <div class="progress-bar-container">
+                                                <div class="progress-fill" style="--progress: 60%"></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="category-action">
+                                    <a href="#" class="explore-btn">
+                                        <span>Explore</span>
+                                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none">
+                                            <path d="M5 12h14M12 5l7 7-7 7" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                        </svg>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="categories-footer">
+                        <div class="total-impact">
+                            <span class="impact-number">900+</span>
+                            <span class="impact-label">Total Projects</span>
+                        </div>
+                        <div class="cta-section">
+                            <p>Ready to make a difference? Join our impact community today.</p>
+                            <a href="#" class="cta-button">Get Involved</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Latest News Section -->
+        <section class="content-section latest-news">
+            <div class="section-container">
+                <div class="section-header">
+                    <div class="section-icon">
+                        <svg width="40" height="40" viewBox="0 0 24 24" fill="none">
+                            <path d="M3 12L5 10M5 10L12 3L19 10M5 10V20C5 20.5523 5.44772 21 6 21H9M19 10L21 12M19 10V20C19 20.5523 18.5523 21 18 21H15" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </div>
+                    <h2>Latest News</h2>
+                    <p>Stay updated with the most recent developments in corporate social responsibility</p>
+                </div>
+                <div class="news-list">
+                    <article class="news-item">
+                        <div class="news-meta">
+                            <span class="date">December 24, 2024</span>
+                            <span class="category">CSR Update</span>
+                        </div>
+                        <h3>New CSR Guidelines Released for FY 2025</h3>
+                        <p>The Ministry of Corporate Affairs has announced updated guidelines for CSR spending, focusing on sustainable development goals and impact measurement frameworks.</p>
+                        <a href="#" class="read-more">Continue Reading</a>
+                    </article>
+                    <article class="news-item">
+                        <div class="news-meta">
+                            <span class="date">December 23, 2024</span>
+                            <span class="category">Partnership</span>
+                        </div>
+                        <h3>Global Partnership Announced for Climate Action</h3>
+                        <p>15 multinational corporations commit to $2 billion investment in renewable energy projects across developing nations.</p>
+                        <a href="#" class="read-more">Continue Reading</a>
+                    </article>
+                    <article class="news-item">
+                        <div class="news-meta">
+                            <span class="date">December 22, 2024</span>
+                            <span class="category">Award</span>
+                        </div>
+                        <h3>CSR Excellence Awards 2024 Winners Announced</h3>
+                        <p>Leading companies recognized for outstanding contributions to social development, environmental protection, and community welfare.</p>
+                        <a href="#" class="read-more">Continue Reading</a>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- Appointments Section -->
+        <section class="content-section appointments">
+            <div class="section-container">
+                <div class="section-header">
+                    <div class="section-icon">
+                        <svg width="40" height="40" viewBox="0 0 24 24" fill="none">
+                            <path d="M20 21V19C20 17.9391 19.5786 16.9217 18.8284 16.1716C18.0783 15.4214 17.0609 15 16 15H8C6.93913 15 5.92172 15.4214 5.17157 16.1716C4.42143 16.9217 4 17.9391 4 19V21" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            <circle cx="12" cy="7" r="4" stroke="currentColor" stroke-width="2"/>
+                        </svg>
+                    </div>
+                    <h2>Appointments</h2>
+                    <p>Key leadership appointments and board positions in the CSR ecosystem</p>
+                </div>
+                <div class="appointments-grid">
+                    <div class="appointment-card">
+                        <div class="person-info">
+                            <div class="person-avatar">
+                                <img src="https://via.placeholder.com/80x80/4CAC48/ffffff?text=JD" alt="Person">
+                            </div>
+                            <div class="person-details">
+                                <h4>Dr. Jennifer Davis</h4>
+                                <p class="position">Chief Sustainability Officer</p>
+                                <p class="company">Global Tech Solutions Ltd.</p>
+                            </div>
+                        </div>
+                        <div class="appointment-details">
+                            <p class="announcement">Appointed as CSO to lead company's ESG initiatives and carbon neutrality goals by 2030.</p>
+                            <span class="date">December 20, 2024</span>
+                        </div>
+                    </div>
+                    <div class="appointment-card">
+                        <div class="person-info">
+                            <div class="person-avatar">
+                                <img src="https://via.placeholder.com/80x80/4CAC48/ffffff?text=RS" alt="Person">
+                            </div>
+                            <div class="person-details">
+                                <h4>Raj Sharma</h4>
+                                <p class="position">Head of CSR Foundation</p>
+                                <p class="company">MegaCorp Industries</p>
+                            </div>
+                        </div>
+                        <div class="appointment-details">
+                            <p class="announcement">Will oversee $50 million annual CSR budget focusing on education and healthcare initiatives.</p>
+                            <span class="date">December 18, 2024</span>
+                        </div>
+                    </div>
+                    <div class="appointment-card">
+                        <div class="person-info">
+                            <div class="person-avatar">
+                                <img src="https://via.placeholder.com/80x80/4CAC48/ffffff?text=MP" alt="Person">
+                            </div>
+                            <div class="person-details">
+                                <h4>Michael Patel</h4>
+                                <p class="position">Board Member</p>
+                                <p class="company">National CSR Council</p>
+                            </div>
+                        </div>
+                        <div class="appointment-details">
+                            <p class="announcement">Joined advisory board to help shape national CSR policies and guidelines.</p>
+                            <span class="date">December 15, 2024</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Events Section -->
+        <section class="content-section events">
+            <div class="section-container">
+                <div class="section-header">
+                    <div class="section-icon">
+                        <svg width="40" height="40" viewBox="0 0 24 24" fill="none">
+                            <rect x="3" y="4" width="18" height="18" rx="2" ry="2" stroke="currentColor" stroke-width="2"/>
+                            <line x1="16" y1="2" x2="16" y2="6" stroke="currentColor" stroke-width="2"/>
+                            <line x1="8" y1="2" x2="8" y2="6" stroke="currentColor" stroke-width="2"/>
+                            <line x1="3" y1="10" x2="21" y2="10" stroke="currentColor" stroke-width="2"/>
+                        </svg>
+                    </div>
+                    <h2>Upcoming Events</h2>
+                    <p>Join prestigious conferences and awards ceremonies in the CSR community</p>
+                </div>
+                <div class="events-timeline">
+                    <div class="event-item">
+                        <div class="event-date">
+                            <span class="month">JAN</span>
+                            <span class="day">15</span>
+                        </div>
+                        <div class="event-content">
+                            <h3>Social Impact Conference & Awards 2025</h3>
+                            <p class="location">Mumbai, India</p>
+                            <p class="description">Annual gathering of CSR leaders, featuring award ceremonies and networking opportunities.</p>
+                            <a href="#" class="register-btn">Register Now</a>
+                        </div>
+                    </div>
+                    <div class="event-item">
+                        <div class="event-date">
+                            <span class="month">FEB</span>
+                            <span class="day">28</span>
+                        </div>
+                        <div class="event-content">
+                            <h3>Climate Action & Sustainability Summit</h3>
+                            <p class="location">Bangalore, India</p>
+                            <p class="description">Focus on environmental initiatives and sustainable business practices.</p>
+                            <a href="#" class="register-btn">Register Now</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- CSR Insight Section -->
+        <section class="content-section csr-insight">
+            <div class="section-container">
+                <div class="section-header">
+                    <div class="section-icon">
+                        <svg width="40" height="40" viewBox="0 0 24 24" fill="none">
+                            <circle cx="12" cy="12" r="10" stroke="currentColor" stroke-width="2"/>
+                            <path d="M12 16V12" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                            <path d="M12 8H12.01" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                        </svg>
+                    </div>
+                    <h2>CSR Insight</h2>
+                    <p>Expert analysis and in-depth perspectives on CSR trends and policies</p>
+                </div>
+                <div class="insight-articles">
+                    <article class="insight-article">
+                        <div class="article-category">Policy Analysis</div>
+                        <h3>New CSR Tax Benefits: What Companies Need to Know</h3>
+                        <p class="article-excerpt">Recent amendments to tax laws provide significant incentives for CSR activities. Our experts break down the implications...</p>
+                        <div class="article-meta">
+                            <span class="author">By Dr. Sarah Chen</span>
+                            <span class="read-time">8 min read</span>
+                        </div>
+                        <a href="#" class="read-more">Read Full Analysis</a>
+                    </article>
+                    <article class="insight-article">
+                        <div class="article-category">Expert Opinion</div>
+                        <h3>The Future of CSR: Trends Shaping 2025</h3>
+                        <p class="article-excerpt">From digital transformation to climate action, discover the key trends that will define CSR strategies in the coming year...</p>
+                        <div class="article-meta">
+                            <span class="author">By Mark Thompson</span>
+                            <span class="read-time">6 min read</span>
+                        </div>
+                        <a href="#" class="read-more">Read Full Analysis</a>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- Sustainability Section -->
+        <section class="content-section sustainability">
+            <div class="section-container">
+                <div class="section-header">
+                    <div class="section-icon">
+                        <svg width="40" height="40" viewBox="0 0 24 24" fill="none">
+                            <path d="M12 2.69L5.39 8.26C5.15 8.47 5 8.78 5 9.11V20C5 20.55 5.45 21 6 21H9C9.55 21 10 20.55 10 20V14C10 13.45 10.45 13 11 13H13C13.55 13 14 13.45 14 14V20C14 20.55 14.45 21 15 21H18C18.55 21 19 20.55 19 20V9.11C19 8.78 18.85 8.47 18.61 8.26L12 2.69Z" stroke="currentColor" stroke-width="2"/>
+                        </svg>
+                    </div>
+                    <h2>Sustainability</h2>
+                    <p>Explore sustainable practices and environmental initiatives driving positive change</p>
+                </div>
+                <div class="sustainability-grid">
+                    <div class="sustainability-item">
+                        <div class="item-icon">
+                            <svg width="32" height="32" viewBox="0 0 24 24" fill="none">
+                                <circle cx="12" cy="12" r="10" stroke="currentColor" stroke-width="2"/>
+                                <path d="M12 6V12L16 14" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                            </svg>
+                        </div>
+                        <h3>Net Zero Initiatives</h3>
+                        <p>Companies committing to carbon neutrality through innovative technologies and renewable energy adoption.</p>
+                        <a href="#" class="explore-link">Explore Initiatives</a>
+                    </div>
+                    <div class="sustainability-item">
+                        <div class="item-icon">
+                            <svg width="32" height="32" viewBox="0 0 24 24" fill="none">
+                                <path d="M1 12L4 9L11 16L23 4" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M21 12V19C21 20.1046 20.1046 21 19 21H5C3.89543 21 3 20.1046 3 19V12" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                        </div>
+                        <h3>Circular Economy</h3>
+                        <p>Transforming waste into resources through innovative recycling and sustainable production methods.</p>
+                        <a href="#" class="explore-link">Learn More</a>
+                    </div>
+                    <div class="sustainability-item">
+                        <div class="item-icon">
+                            <svg width="32" height="32" viewBox="0 0 24 24" fill="none">
+                                <path d="M12 2L15.09 8.26L22 9.27L17 14.14L18.18 21.02L12 17.77L5.82 21.02L7 14.14L2 9.27L8.91 8.26L12 2Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                        </div>
+                        <h3>Climate Action</h3>
+                        <p>Corporate commitments to environmental protection and climate resilience across industries.</p>
+                        <a href="#" class="explore-link">Discover Actions</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- More Resources Section -->
+        <section class="content-section more-resources">
+            <div class="section-container">
+                <div class="section-header">
+                    <div class="section-icon">
+                        <svg width="40" height="40" viewBox="0 0 24 24" fill="none">
+                            <path d="M19 3H5C3.89543 3 3 3.89543 3 5V19C3 20.1046 3.89543 21 5 21H19C20.1046 21 21 20.1046 21 19V5C21 3.89543 20.1046 3 19 3Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path d="M3 9H21" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path d="M9 21V9" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </div>
+                    <h2>More Resources</h2>
+                    <p>Additional tools, opportunities, and platforms in the CSR ecosystem</p>
+                </div>
+                <div class="resources-grid">
+                    <div class="resource-item">
+                        <div class="resource-icon">
+                            <svg width="32" height="32" viewBox="0 0 24 24" fill="none">
+                                <path d="M14 2H6C4.89543 2 4 2.89543 4 4V20C4 21.1046 4.89543 22 6 22H18C19.1046 22 20 21.1046 20 20V8L14 2Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M14 2V8H20" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                        </div>
+                        <h3>Reports & Publications</h3>
+                        <p>Access comprehensive reports, whitepapers, and research publications on CSR trends and impacts.</p>
+                        <a href="#" class="resource-link">Browse Reports</a>
+                    </div>
+                    <div class="resource-item">
+                        <div class="resource-icon">
+                            <svg width="32" height="32" viewBox="0 0 24 24" fill="none">
+                                <path d="M20 21V19C20 17.9391 19.5786 16.9217 18.8284 16.1716C18.0783 15.4214 17.0609 15 16 15H8C6.93913 15 5.92172 15.4214 5.17157 16.1716C4.42143 16.9217 4 17.9391 4 19V21" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                <circle cx="12" cy="7" r="4" stroke="currentColor" stroke-width="2"/>
+                            </svg>
+                        </div>
+                        <h3>Jobs & Fellowships</h3>
+                        <p>Explore career opportunities and fellowship programs in the CSR and sustainability sector.</p>
+                        <a href="#" class="resource-link">View Opportunities</a>
+                    </div>
+                    <div class="resource-item">
+                        <div class="resource-icon">
+                            <svg width="32" height="32" viewBox="0 0 24 24" fill="none">
+                                <polygon points="23 7 16 12 23 17 23 7" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                <rect x="1" y="5" width="15" height="14" rx="2" ry="2" stroke="currentColor" stroke-width="2"/>
+                            </svg>
+                        </div>
+                        <h3>Video Resources</h3>
+                        <p>Watch interviews, webinars, and documentary features on CSR initiatives and success stories.</p>
+                        <a href="#" class="resource-link">Watch Videos</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <script>
+        // Enhanced dropdown functionality with stunning interactions
+        document.addEventListener('DOMContentLoaded', function() {
+            const dropdowns = document.querySelectorAll('.dropdown');
+            const navLinks = document.querySelectorAll('.nav-link');
+            const dropdownLinks = document.querySelectorAll('.dropdown-links a');
+            const knowMoreButtons = document.querySelectorAll('.know-more');
+            
+            // Add smooth reveal animation for dropdowns
+            dropdowns.forEach(dropdown => {
+                const dropdownContent = dropdown.querySelector('.dropdown-content');
+                let timeout;
+                let isOpen = false;
+                let isHoveringDropdown = false;
+                let isHoveringContent = false;
+                
+                dropdown.addEventListener('mouseenter', function() {
+                    isHoveringDropdown = true;
+                    clearTimeout(timeout);
+                    if (!isOpen) {
+                        dropdownContent.style.display = 'block';
+                        dropdownContent.style.opacity = '0';
+                        dropdownContent.style.transform = 'translateX(-50%) translateY(-10px) scale(0.95)';
+                        
+                        setTimeout(() => {
+                            dropdownContent.style.opacity = '1';
+                            dropdownContent.style.transform = 'translateX(-50%) translateY(0) scale(1)';
+                            dropdownContent.style.visibility = 'visible';
+                            isOpen = true;
+                        }, 10);
+                    }
+                });
+                
+                dropdown.addEventListener('mouseleave', function() {
+                    isHoveringDropdown = false;
+                    checkCloseDropdown();
+                });
+                
+                dropdownContent.addEventListener('mouseenter', function() {
+                    isHoveringContent = true;
+                    clearTimeout(timeout);
+                });
+                
+                dropdownContent.addEventListener('mouseleave', function() {
+                    isHoveringContent = false;
+                    checkCloseDropdown();
+                });
+                
+                function checkCloseDropdown() {
+                    timeout = setTimeout(() => {
+                        if (!isHoveringDropdown && !isHoveringContent) {
+                            dropdownContent.style.opacity = '0';
+                            dropdownContent.style.transform = 'translateX(-50%) translateY(-10px) scale(0.95)';
+                            dropdownContent.style.visibility = 'hidden';
+                            
+                            setTimeout(() => {
+                                dropdownContent.style.display = 'none';
+                                isOpen = false;
+                            }, 400);
+                        }
+                    }, 200); // Increased timeout for better UX
+                }
+                
+                // Add click functionality for mobile
+                dropdown.addEventListener('click', function(e) {
+                    if (window.innerWidth <= 768) {
+                        e.preventDefault();
+                        if (!isOpen) {
+                            // Close other dropdowns
+                            dropdowns.forEach(other => {
+                                if (other !== dropdown) {
+                                    const otherContent = other.querySelector('.dropdown-content');
+                                    otherContent.style.display = 'none';
+                                    otherContent.style.opacity = '0';
+                                    otherContent.style.visibility = 'hidden';
+                                }
+                            });
+                            
+                            dropdownContent.style.display = 'block';
+                            setTimeout(() => {
+                                dropdownContent.style.opacity = '1';
+                                dropdownContent.style.visibility = 'visible';
+                                dropdownContent.style.transform = 'translateX(-50%) translateY(0) scale(1)';
+                            }, 10);
+                            isOpen = true;
+                        } else {
+                            dropdownContent.style.opacity = '0';
+                            dropdownContent.style.visibility = 'hidden';
+                            setTimeout(() => {
+                                dropdownContent.style.display = 'none';
+                            }, 400);
+                            isOpen = false;
+                        }
+                    }
+                });
+            });
+            
+            // Enhanced ripple effect for navigation links
+            navLinks.forEach(link => {
+                link.addEventListener('click', function(e) {
+                    const ripple = document.createElement('span');
+                    const rect = this.getBoundingClientRect();
+                    const size = Math.max(rect.width, rect.height);
+                    const x = e.clientX - rect.left - size / 2;
+                    const y = e.clientY - rect.top - size / 2;
+                    
+                    ripple.style.width = ripple.style.height = size + 'px';
+                    ripple.style.left = x + 'px';
+                    ripple.style.top = y + 'px';
+                    ripple.classList.add('ripple');
+                    
+                    this.appendChild(ripple);
+                    
+                    setTimeout(() => {
+                        ripple.remove();
+                    }, 600);
+                });
+            });
+            
+            // Add click feedback for dropdown links
+            dropdownLinks.forEach(link => {
+                link.addEventListener('click', function(e) {
+                    // Create ripple effect
+                    const ripple = document.createElement('span');
+                    const rect = this.getBoundingClientRect();
+                    const size = Math.max(rect.width, rect.height);
+                    const x = e.clientX - rect.left - size / 2;
+                    const y = e.clientY - rect.top - size / 2;
+                    
+                    ripple.style.width = ripple.style.height = size + 'px';
+                    ripple.style.left = x + 'px';
+                    ripple.style.top = y + 'px';
+                    ripple.style.position = 'absolute';
+                    ripple.style.borderRadius = '50%';
+                    ripple.style.background = 'rgba(76, 172, 72, 0.3)';
+                    ripple.style.transform = 'scale(0)';
+                    ripple.style.animation = 'ripple-animation 0.6s ease-out';
+                    ripple.style.pointerEvents = 'none';
+                    
+                    this.style.position = 'relative';
+                    this.appendChild(ripple);
+                    
+                    setTimeout(() => {
+                        ripple.remove();
+                    }, 600);
+                    
+                    // Add visual feedback
+                    this.style.transform = 'translateX(5px) rotateY(2deg) scale(0.98)';
+                    setTimeout(() => {
+                        this.style.transform = '';
+                    }, 150);
+                });
+            });
+            
+            // Add click feedback for know-more buttons
+            knowMoreButtons.forEach(button => {
+                button.addEventListener('click', function(e) {
+                    e.preventDefault();
+                    
+                    // Create pulse effect
+                    const pulse = document.createElement('span');
+                    pulse.style.position = 'absolute';
+                    pulse.style.top = '50%';
+                    pulse.style.left = '50%';
+                    pulse.style.width = '100%';
+                    pulse.style.height = '100%';
+                    pulse.style.borderRadius = '25px';
+                    pulse.style.background = 'rgba(255, 255, 255, 0.4)';
+                    pulse.style.transform = 'translate(-50%, -50%) scale(0)';
+                    pulse.style.animation = 'pulse-animation 0.6s ease-out';
+                    pulse.style.pointerEvents = 'none';
+                    
+                    this.style.position = 'relative';
+                    this.appendChild(pulse);
+                    
+                    setTimeout(() => {
+                        pulse.remove();
+                    }, 600);
+                    
+                    // Add visual feedback
+                    this.style.transform = 'translateY(-2px) rotateX(5deg) scale(1.05)';
+                    setTimeout(() => {
+                        this.style.transform = '';
+                    }, 150);
+                });
+            });
+            
+            // Enhanced dropdown icon animation
+            const dropdownIcons = document.querySelectorAll('.dropdown-icon');
+            dropdowns.forEach((dropdown, index) => {
+                const icon = dropdownIcons[index];
+                dropdown.addEventListener('mouseenter', function() {
+                    icon.style.transform = 'rotate(180deg) scale(1.2)';
+                    icon.style.transition = 'transform 0.3s ease';
+                });
+                
+                dropdown.addEventListener('mouseleave', function() {
+                    icon.style.transform = 'rotate(0deg) scale(1)';
+                });
+            });
+            
+            // Smooth scroll for navigation
+            document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+                anchor.addEventListener('click', function (e) {
+                    e.preventDefault();
+                    const target = document.querySelector(this.getAttribute('href'));
+                    if (target) {
+                        target.scrollIntoView({
+                            behavior: 'smooth',
+                            block: 'start'
+                        });
+                    }
+                });
+            });
+            
+            // Add scroll effect to navbar
+            let lastScroll = 0;
+            const navbar = document.querySelector('.top-bar');
+            
+            window.addEventListener('scroll', () => {
+                const currentScroll = window.pageYOffset;
+                
+                if (currentScroll <= 0) {
+                    navbar.classList.remove('scroll-up');
+                    return;
+                }
+                
+                if (currentScroll > lastScroll && !navbar.classList.contains('scroll-down')) {
+                    navbar.classList.remove('scroll-up');
+                    navbar.classList.add('scroll-down');
+                } else if (currentScroll < lastScroll && navbar.classList.contains('scroll-down')) {
+                    navbar.classList.remove('scroll-down');
+                    navbar.classList.add('scroll-up');
+                }
+                lastScroll = currentScroll;
+            });
+            
+            // Add keyboard navigation
+            document.addEventListener('keydown', function(e) {
+                if (e.key === 'Escape') {
+                    dropdowns.forEach(dropdown => {
+                        const dropdownContent = dropdown.querySelector('.dropdown-content');
+                        dropdownContent.style.display = 'none';
+                        dropdownContent.style.opacity = '0';
+                        dropdownContent.style.visibility = 'hidden';
+                    });
+                }
+            });
+            
+            // Add touch support for mobile devices
+            if ('ontouchstart' in window) {
+                dropdowns.forEach(dropdown => {
+                    dropdown.addEventListener('touchstart', function(e) {
+                        e.preventDefault();
+                        const dropdownContent = dropdown.querySelector('.dropdown-content');
+                        const isVisible = dropdownContent.style.display === 'block';
+                        
+                        // Close all other dropdowns
+                        dropdowns.forEach(other => {
+                            if (other !== dropdown) {
+                                const otherContent = other.querySelector('.dropdown-content');
+                                otherContent.style.display = 'none';
+                                otherContent.style.opacity = '0';
+                                otherContent.style.visibility = 'hidden';
+                            }
+                        });
+                        
+                        if (!isVisible) {
+                            dropdownContent.style.display = 'block';
+                            setTimeout(() => {
+                                dropdownContent.style.opacity = '1';
+                                dropdownContent.style.visibility = 'visible';
+                            }, 10);
+                        } else {
+                            dropdownContent.style.opacity = '0';
+                            dropdownContent.style.visibility = 'hidden';
+                            setTimeout(() => {
+                                dropdownContent.style.display = 'none';
+                            }, 400);
+                        }
+                    });
+                });
+            }
+        });
+    </script>
+
+<script>
+    // Number Animation Function
+    function animateNumbers() {
+        const statNumbers = document.querySelectorAll('.impact-stats .stat-number');
+        
+        statNumbers.forEach(stat => {
+            const target = parseInt(stat.getAttribute('data-target'));
+            if (isNaN(target)) return; // Skip if target is not a valid number
+            
+            const duration = 2000; // 2 seconds
+            const increment = target / (duration / 16); // 60fps
+            let current = 0;
+            
+            const updateNumber = () => {
+                current += increment;
+                if (current < target) {
+                    stat.textContent = Math.floor(current).toLocaleString();
+                    requestAnimationFrame(updateNumber);
+                } else {
+                    stat.textContent = target.toLocaleString();
+                }
+            };
+            
+            // Start animation when element is in viewport
+            const observer = new IntersectionObserver((entries) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        updateNumber();
+                        observer.unobserve(entry.target);
+                    }
+                });
+            });
+            
+            observer.observe(stat);
+        });
+    }
+    
+    // Initialize animations when page loads
+    document.addEventListener('DOMContentLoaded', animateNumbers);
+</script>
+
+</main>
+
+</body>
+</html>
